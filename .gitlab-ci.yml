@@ -1,6 +1,6 @@
 image: python:3.6.5
 variables:
-    S3_BUCKET: demo-20200925-spf
+    S3_BUCKET: "Deploy S3 Bucket Name"
     AWS_DEFAULT_REGION: ap-northeast-1
 stages:
     - test
